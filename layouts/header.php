@@ -20,13 +20,14 @@
     <link rel="stylesheet" href="Technomasr/owl-carousel/owl.transitions.css" />
 </head>
 <body>
-        <!-- start side-menue -->
-        <section>
+    <!-- start side-menue -->
+    <section>
         <div id="btn" class="">
-                <div id='top'></div>
-                <div id='middle'></div>
-                <div id='bottom'></div>
+            <div id='top'></div>
+            <div id='middle'></div>
+            <div id='bottom'></div>
         </div>
+        
         <div id="box">
             <div id="items" class="services-dropdown">
                 <ul id="accordion" class="accordion">
@@ -134,7 +135,7 @@
         <!-- End weekly offer -->
 
         <!-- start upper bar -->
-        <section>
+        <!-- <section>
             <div class="upper-bar">
                 <div class="container-fluid">
                     <div class="row">
@@ -155,8 +156,8 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- end upper bar --> 
+        </section> -->
+        <!-- end upper bar  -->
 
 
     
