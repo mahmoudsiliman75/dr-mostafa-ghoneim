@@ -849,11 +849,9 @@ body {
   margin-bottom: 15px
 }
 .card-body h4, h3, a {
-
-    color: #007bff;
+    color: #a39d58;
     text-decoration: none;
     background-color: transparent;
-
 }
 /* end courses section */
 
@@ -1609,8 +1607,6 @@ p {
 }
 
 
-
-
 .section-header {
   text-align: center;
   margin: 60px auto 20px auto;
@@ -1657,7 +1653,7 @@ p {
 .course-det h2{
   text-align: center;
   margin-bottom: 25px;
-  color: #207ea0;
+  color: #bdb986;
   margin-top: auto;
 }
 
@@ -1679,6 +1675,10 @@ p {
   }
 }
 
+.course-det .card-container .card  .card-body {
+  background-color: #212121;
+}
+
 .course-det .card-container .card  .card-body h3 a {
   color: #207ea0;
   font-size: 25px;
@@ -1697,14 +1697,14 @@ p {
 
 .course-det .card-container .card .card-text {
   font-size: 18px;
-  color: #555;
+  color: #999;
   text-align: justify;
 }
 
 .course-det .card-container .card .card-text span {
   font-weight: 600;
   font-size: 20px;
-  color: #207ea0;
+  color: #a39d58;
 }
 
 .courseImg {
@@ -1714,17 +1714,18 @@ p {
   width: 100%;
   padding: 5px;
   border-radius: 2% 2% 0 0;
-  
+  background-color: #212121;
   height: 400px;
 }
 .course-det p{
   text-align: justify;
 }
 .course-det{
-  margin-top: 50px;
+  margin-bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(to right, #a29f51 ,  #F3F9A7 , #FFFDE4);
 }
 .course-det h4{
   text-align: left;

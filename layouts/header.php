@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Ghoneim</title>
-    <link rel="shortcut icon" href="Technomasr/Technomasr/img/Logo.png">
+    <link rel="shortcut icon" href="Technomasr/Technomasr/img/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" integrity="sha512-WEQNv9d3+sqyHjrqUZobDhFARZDko2wpWdfcpv44lsypsSuMO0kHGd3MQ8rrsBn/Qa39VojphdU6CMkpJUmDVw==" crossorigin="anonymous" />
     <link rel="stylesheet" href="Technomasr/css/bootstrap.min.css">
     <link rel="stylesheet" href="Technomasr/css/fontawesome.min.css">
