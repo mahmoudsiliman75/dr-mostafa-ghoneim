@@ -59,7 +59,7 @@
 	<!-- End Image Carousel -->
 
 	<!-- start welcome  -->
-	<section>
+	<section class="welcome_section">
 		<div class="container mt-3 mb-3" >
 			<div class="row py-4">
 				<div class="col-lg-8 mb-4 wow slideInLeft" data-wow-duration="2s" data-wow-delay="0.3s">
@@ -78,7 +78,7 @@
 	<section>
 		<div class="section-1 box ">
 			<div class="p-0 clearfix services text-center">
-				<div class="container  wow fadeInUp" data-wow-duration="2s"  data-wow-offset="30" data-wow-delay="0.3s">
+				<div class="container  wow slideInDown" data-wow-duration="2s"  data-wow-offset="30" data-wow-delay="0.3s">
 					<div class="headerServ">
 						<h2 class="custom-header">Our Services</h2>
 					</div>
@@ -268,7 +268,7 @@
 	<!-- end our team -->
 
 	<!-- start course section -->
-	<div class="container-fluid">
+	<div class="container-fluid courses">
 		<div class="row">
 			<div class="courses-title col-12">
 				<h2 class="custom-header">Educational Courses</h2>
@@ -394,15 +394,15 @@
 
 					<div class="info" id="info">
 						<ul>
-							<li class="location">
+							<li class="">
 								<i class="fas fa-map-marker-alt fa-lg"></i>
 								<span class="ml-3">Mansoura,Dakhlia,Egypt</span>
 							</li>
-							<li class="mail">
+							<li class="">
 								<i class="fas fa-envelope"></i>
 								<span class="ml-3">contact@email.com</span>
 							</li>
-							<li class="whats">
+							<li class="">
 								<i class="fab fa-whatsapp fa-lg"></i>
 								<span class="ml-3">+20 100 125 0344 </span>
 							</li>

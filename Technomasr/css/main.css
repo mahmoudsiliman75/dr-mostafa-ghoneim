@@ -7,7 +7,7 @@ second color: #ec1c23
 /* START MY CUSTOM CLASSES */
 
 .custom-header {
-  color: #207ea0;
+  color: #bdb986;
   font-size: 4.5vw;
   padding: 10px;
   margin-bottom: 45px;
@@ -25,7 +25,7 @@ second color: #ec1c23
   left: 8%;
   display: block;
   width: 75px;
-  border-bottom: 2px solid #207ea0;
+  border-bottom: 2px solid #bdb986;
 }
 
 /* START CUSTOM HEADER MEDIA */
@@ -76,19 +76,46 @@ body {
 /* end body */
 
 /* start upper bar */
+.custom-container {
+  border-bottom: 2px solid #bdb986;
+  background-color: #212121;
+}
 
 .offer{
   background-color: #fff;
   padding: 0%;
 }
-.logoUpper{
-  height: 80px;
-  width: 80px;
-  padding: 5px;
-  padding-bottom: 0;
-  margin-left: 20px;
-  justify-content: center ;
+
+.logo {
+  background-color: #212121;
 }
+
+.logoUpper{
+  height: 90px;
+  /* width: 150px; */
+  background-color: #212121;
+  /* padding: 5px;
+  padding-bottom: 0;
+  justify-content: center ; */
+}
+
+.weekly-offer {
+  background-color: #212121;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.weekly-offer a {
+  width: 100%;
+}
+
+.socialParent {
+  background-color: #212121;
+  /* display: flex;
+  align-items: center; */
+}
+
 .add{
   height: 90px;
   margin: 0 10px 0 10px;
@@ -98,17 +125,25 @@ body {
   font-size: 2vw;
   text-align: center !important;
 }
-.socialUpper{
+.socialParent .socialUpper {
   list-style-type: none;
-  display: flex;
+  /* display: flex;
+  flex-wrap: wrap; */
   padding: 0;
-  margin: 0 auto;
-  top: 50%;
-  left: 50%;
 }
+
+.socialParent .socialUpper li {
+  /* width: 34%; */
+  display: inline-block;
+}
+
+.socialParent li a  {
+  color: #bdb986;
+}
+
 .offer .svg-inline--fa {
-  font-size: 30px;
-  margin:1rem;
+  font-size: 25px;
+  margin:0.5rem;
   justify-content: center;
 }
 .offer .svg-inline--fa:hover {
@@ -144,7 +179,7 @@ body {
 
 /* upper bar */
 
-.upper-bar{
+/* .upper-bar{
   background-color: #207ea0;
   color: #FFF;
   padding: 0 10px;
@@ -157,13 +192,16 @@ body {
 
 .welc-ghon{
   font-size: 15px;
-}
+} */
 
 /* end upper bar */
 
 /* sidebar */
 .nav-item {
     padding: .4rem;
+    background-color: #bdb986;
+    border-top-color: #a29e6f;
+    border-bottom-color: #a29e6f;
   }
 
 /* .dropdown-menu{
@@ -198,7 +236,7 @@ body {
   width: 100%;
   max-width: 384px;
   margin: 30px auto 20px;
-  background: #207ea0;
+  background-color: #97925d;
   border-radius: 0px
 }
 .accordion .link {
@@ -206,9 +244,10 @@ body {
   display: block;
   padding: 15px 15px 15px 42px;
   color: #fff;
+  background-color: #bdb986;
   font-size: 2em;
   font-weight: 700;
-  border-bottom: 1px solid #CCC;
+  border-bottom: 1px solid #a29e6f;
   position: relative;
   transition: all 0.4s ease
 }
@@ -256,14 +295,14 @@ body {
 }
 
 .submenu li {
-  border-bottom: 1px solid #2c7691
+  border-bottom: 1px solid #bdb986
 }
 
 .submenu a {
   display: block;
   text-decoration: none;
   color: #d9d9d9;
-  background-color: #133b5c;
+  background-color: #a39d58;
   padding: 12px;
   padding-left: 42px;
   -webkit-transition: all 0.25s ease;
@@ -272,7 +311,7 @@ body {
 }
 
 .submenu a:hover {
-  background: #155870;
+  background: #bdb986;
   color: #FFF;
   -webkit-transition: all 0.25s ease;
   -o-transition: all 0.25s ease;
@@ -318,25 +357,26 @@ body {
   #btn {
     position: absolute;
     z-index: 20;
-    top: 30px;
-    right: 50px;
-    border-radius: 5px;
+    top: 5%;
+    right: 5%;
+    border-radius: 3px;
     cursor: pointer;
     transition: left 500ms cubic-bezier(0.6, 0.05, 0.28, 0.91);
-    background-color: #2592b9;
+    /* background-color: #bdb986; */
     padding: 0 10px;
   }
+
   #btn div {
     width: 30px;
     height: 3px;
     margin-top: 6px;
     margin-bottom: 8px;
-    background-color: #fff;
+    background-color: #bdb986;
     transition: opacity 500ms, background-color 250ms, -webkit-transform 500ms cubic-bezier(0.6, 0.05, 0.28, 0.91);
     transition: transform 500ms cubic-bezier(0.6, 0.05, 0.28, 0.91), opacity 500ms, background-color 250ms;
     transition: transform 500ms cubic-bezier(0.6, 0.05, 0.28, 0.91), opacity 500ms, background-color 250ms, -webkit-transform 500ms cubic-bezier(0.6, 0.05, 0.28, 0.91);
   }
-  
+
   #btn.active {
     right: 20px;
     top: 10px;
@@ -392,7 +432,7 @@ body {
     opacity: 0;
     padding: 1px 0px;
     height: 100%;
-    background-color:  #207ea0;
+    background-color: #bdb986;
     color: #FFF;
     transition: all 350ms cubic-bezier(0.6, 0.05, 0.28, 0.91);
   }
@@ -488,8 +528,9 @@ p.lead{
   width:100%;
 }
 
-.carousel-control-prev, .carousel-control-next{
-  background-color: #207ea0;
+.carousel-control-prev, 
+.carousel-control-next {
+  background-color: #2b3337;
   height: 30px;
   width: 30px;
   padding: 7px;
@@ -510,10 +551,11 @@ p.lead{
   border-radius: 50%;
   width: 15px;
   height: 15px;
+  background-color: #bdb986;
 }
 
 .carousel .carousel-indicators .active {
-  background-color: #207ea0;
+  background-color: #2b3337;
 }
 
 /* START CAROUSEL MEDIA */
@@ -557,19 +599,29 @@ p.lead{
   }
   .card-1{
     box-sizing: border-box;
-    box-shadow: 0px 0px 20px 5px #ddd;
+    box-shadow: 0px 0px 5px 2px #bdb986;
   }
+
+  .welcome_section {
+    background-color: #212121;
+  }
+
   .welc-h {
-    color:#207ea0;
+    color:#bdb986;
     font-size: 3.3vw;
   }
   .welc-p {
-    color: #555;
+    color: #999;
   }
   .img-card{
     max-width: 100%;
     height:auto;
   }
+
+  .courses {
+    background-color: #212121;
+  }
+
   .courses-title {
     padding: 15px 0;
     margin-top: 20px;
@@ -582,7 +634,7 @@ p.lead{
   position: absolute;
   top: 8px;
   text-align: center;
-  background-color: #207ea0;
+  background-color: #bdb986;
   color: #fff;
   padding: 6px 10px;
   width: 40%;
@@ -594,12 +646,17 @@ p.lead{
     text-align: center;
     font-size: 24px;
 }
+
+.course-category a {
+  color: #bdb986;
+}
+
 .course-author a {
   display: block;
   text-align: center;
   padding: 0px;
   margin: 0px 0px 5px 0px;
-  color: #333;
+  color: #999;
 }
 .owl-carousel .owl-item {
   padding: 5px;
@@ -628,6 +685,11 @@ p.lead{
   padding: 0;
   margin: 0;
 }
+
+.info ul li {
+  color: #212121;
+}
+
 p.footer-bottom-text {
   margin: 0;
 }
@@ -636,7 +698,7 @@ p.footer-bottom-text {
 .section-1{
   padding: 50px 0px;
   background-attachment: fixed;
-  background-image:linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(../img/1.jpg);
+  background-image:linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url(../img/1.jpg);
   background-size: cover;
 }
   
@@ -669,24 +731,26 @@ p.footer-bottom-text {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: #207ea0;
+    background-color: #bdb986 !important;
     border: 1px solid transparent;
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
     border-radius: .25rem;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,box-shadow .15s ease-in-out;
     margin-top: 20px;
 }
+
 .btn:hover {
-    background-color: #001b25;
-    color:#fff;
+  background-color: #8f8b56 !important;   
+  color:#fff;
+  border-color: transparent;
 }
 .btn:focus, .btn:hover {
     text-decoration: none;
 }
 .services h3{
-    color:  #207ea0;
+    color:  #555;
     font-size: 24px;
     margin-bottom: 15px;
     margin-top: 10px;
@@ -800,7 +864,7 @@ body {
   margin-bottom: 15px
 }
 .card-body h4, h3, a {
- 
+
     color: #007bff;
     text-decoration: none;
     background-color: transparent;
@@ -828,7 +892,7 @@ body {
     min-height: 100vh;
     padding: 2rem;
     background-attachment: fixed;
-    background-image:linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(../img/contact.jpg);
+    background-image:linear-gradient(rgba(178, 194, 36, 0.7), rgba(178, 194, 36, 0.7)), url(../img/contact.jpg);
     background-size: cover;
     overflow: hidden;
     display: flex;
@@ -848,13 +912,13 @@ body {
 }
 
 .contact-info-form {
-    background-color: #207ea0;
+    background-color: #212121;
     position: relative
 }
 
 .circle {
     border-radius: 50%;
-    background: linear-gradient(135deg, transparent 20%,#0e465a);
+    background: linear-gradient(135deg, transparent 20%,#b6ac24);
     position: absolute
 }
 
@@ -877,7 +941,7 @@ body {
     position: absolute;
     width: 26px;
     height: 26px;
-    background-color:#207ea0;
+    background-color:#212121;
     transform: rotate(45deg);
     bottom: 66px;
     left: -13px
@@ -949,7 +1013,7 @@ textarea.input {
     background-color: #fff;
     border: 2px solid #fafafa;
     font-size: 0.95rem;
-    color: #1abc9c;
+    color: #b6ac24;
     line-height: 1;
     border-radius: 4px;
     outline: none;
@@ -960,7 +1024,7 @@ textarea.input {
 
 .btn-2:hover {
     background-color: transparent;
-    color: #fff
+    color: #b6ac24
 }
 
 .social-input-containers span {
@@ -1011,7 +1075,8 @@ textarea.input {
 
 .contact-info {
     padding: 2.3rem 2.2rem;
-    position: relative
+    position: relative;
+    background-color: #a29e6f;
 }
 
 .contact-info .title {
@@ -1053,7 +1118,7 @@ textarea.input {
     width: 35px;
     height: 35px;
     border-radius: 43px;
-    background: linear-gradient(45deg,#207ea0,#157091);
+    background: #212121;
     color: #fff;
     text-align: center;
     line-height: 35px;
@@ -1071,7 +1136,7 @@ textarea.input {
     position: absolute;
     width: 110px;
     height: 100px;
-    border: 22px solid#207ea0;
+    border: 22px solid#b6ac24;
     border-radius: 50%;
     bottom: -77px;
     right: 50px;
@@ -1207,8 +1272,8 @@ textarea.input {
 /* footer-bottom */
 .footer-bottom-text{
   text-align: center;
-  background: #207ea0;
-  color: #fff;
+  background: #212121;
+  color: #bdb986;
   font-size: 18px;
   padding: 5px 0;
 }
@@ -1420,7 +1485,7 @@ p {
 
 /* team */
 #team {
-  background: #fff;
+  background: #212121;
   padding: 60px 0;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1)
 }
@@ -1482,7 +1547,7 @@ p {
 }
 
 #team .member:hover .member-info {
-  background: rgba(0, 62, 128, 0.7);
+  background: #bdb986b0;
   opacity: 1;
   transition: all 0.6s ease-in-out;
 }

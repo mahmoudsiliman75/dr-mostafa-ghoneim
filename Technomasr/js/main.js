@@ -28,7 +28,7 @@ $(document).ready(function() {
 
 	  // START NICE SCROLL
 		$("body").niceScroll({
-			cursorcolor:"#207ea0",
+			cursorcolor:"#bdb986",
 			cursorwidth:"5px",
 			cursorborder: 0,
 			cursorborderradius: 0,

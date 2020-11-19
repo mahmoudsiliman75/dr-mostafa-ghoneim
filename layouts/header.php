@@ -27,7 +27,7 @@
             <div id='middle'></div>
             <div id='bottom'></div>
         </div>
-        
+
         <div id="box">
             <div id="items" class="services-dropdown">
                 <ul id="accordion" class="accordion">
@@ -90,40 +90,45 @@
     <div id="page-wrapper">
         
         <!-- start weekly offer -->
-        <section class="container-fluid p-t-10 p-b-10"> 
+        <section class="custom-container container-fluid p-t-10 p-b-10"> 
             <div class="offer">
                 <div class="row weekly-box">
-                    <div class="logo col-sm-4 col-md-2">
+                    <div class="logo col-sm-4 col-md-1">
                         <a href="index.php">
                             <img class="logoUpper" src="Technomasr/img/logo.png" alt="">
                         </a> 
                     </div>
+                    
                     <div class=" weekly-offer col-sm-12 col-md-6">
                         <a href="#">
                             <img class="add w-100" src="Technomasr/img/add.jpg" alt="">
                         </a>
                     </div>
 
-                    <div class="social col-sm-8 col-md-4  pt-2">
+                    <div class="socialParent col-sm-8 col-md-5  pt-2">
+                        <ul>
+                            <li><a href="call:01000000001"> <i class="fas fa-phone-alt" style="font-size: 17px; margin: 0 0.5em 0 0.5em"></i> 01000000001 </a></li>
+                            <li><a href="call:01000000001"> <i class="far fa-envelope" style="font-size: 17px; margin: 0 0.5em 0 0.5em"></i> example_email@example.com </a></li>
+                        </ul>
                         <ul class="socialUpper">
                             <li>
                                 <a href="" target="_blank">
-                                    <i class="fab fa-facebook" style="color: #4267B2"></i>
+                                    <i class="fab fa-facebook"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="" target="_blank">
-                                    <i class="fab fa-instagram" style="color: #da3392"></i>
+                                    <i class="fab fa-instagram"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="" target="_blank">
-                                    <i class="fab fa-youtube" style="color: #c4302b"></i>
+                                    <i class="fab fa-youtube"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="" target="_blank">
-                                    <i class="fab fa-whatsapp" style="color: #4FCE5D"></i>
+                                    <i class="fab fa-whatsapp"></i>
                                 </a>
                             </li>  
                         </ul>
