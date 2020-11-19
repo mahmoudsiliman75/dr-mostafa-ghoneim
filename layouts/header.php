@@ -108,7 +108,7 @@
                     <div class="socialParent col-sm-8 col-md-5  pt-2">
                         <ul>
                             <li><a href="call:01000000001"> <i class="fas fa-phone-alt" style="font-size: 17px; margin: 0 0.5em 0 0.5em"></i> 01000000001 </a></li>
-                            <li><a href="call:01000000001"> <i class="far fa-envelope" style="font-size: 17px; margin: 0 0.5em 0 0.5em"></i> example_email@example.com </a></li>
+                            <li><a href="#"> <i class="far fa-envelope" style="font-size: 17px; margin: 0 0.5em 0 0.5em"></i> example_email@example.com </a></li>
                         </ul>
                         <ul class="socialUpper">
                             <li>

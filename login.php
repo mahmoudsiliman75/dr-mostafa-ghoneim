@@ -24,7 +24,7 @@
                             </div>
                         </div>
 
-                        <h2 class="text-center" style="color: #207ea0;">or</h2>
+                        <h2 class="text-center" style="color: #bdb986;">or</h2>
 
 
                         <div class="row">
@@ -50,7 +50,7 @@
                         </div>
                         <div class="login_message">
                             <p>Don’t have an account ? 
-                                <a href="#"> Sign up </a> 
+                                <a href="#" style="color: #bdb986;"> Sign up </a> 
                             </p>
                         </div>
                     </div> <!-- /.login_wrapper-->
