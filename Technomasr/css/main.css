@@ -69,9 +69,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #999;
   text-align: left;
-  background-color: #fff;
+  background-color: #212121;
 }
 /* end body */
 
@@ -82,39 +82,19 @@ body {
 }
 
 .offer{
-  background-color: #fff;
+  background-color: #212121;
   padding: 0%;
 }
 
-.logo {
-  background-color: #212121;
-}
 
 .logoUpper{
   height: 90px;
-  /* width: 150px; */
-  background-color: #212121;
-  /* padding: 5px;
-  padding-bottom: 0;
-  justify-content: center ; */
-}
-
-.weekly-offer {
-  background-color: #212121;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
 }
 
 .weekly-offer a {
   width: 100%;
 }
 
-.socialParent {
-  background-color: #212121;
-  /* display: flex;
-  align-items: center; */
-}
 
 .add{
   height: 90px;
@@ -1274,8 +1254,10 @@ textarea.input {
   text-align: center;
   background: #212121;
   color: #bdb986;
+  border-top: 2px solid #bdb986;
   font-size: 18px;
   padding: 5px 0;
+  box-shadow: 0px 0px 5px 2px #bdb986;
 }
 .m-b-0 {
   margin-bottom: 0px;
@@ -1312,7 +1294,7 @@ textarea.input {
   font-size: 20px;
 } */
 
-.contact-info .info .location svg {
+/* .contact-info .info .location svg {
   color: #1d7a9b;
 }
 
@@ -1322,7 +1304,7 @@ textarea.input {
 
 .contact-info .info .whats svg {
   color: #080;
-}
+} */
 
 /* log in warber */
 .login_form_wrapper {
@@ -1826,7 +1808,7 @@ button:focus {
 
 /* services page */
 .imgServ{
-  background-color: #fff;
+  background-color: #212121;
 }
 .imgServ .container-fluid > div {
   height: 625px;
@@ -1865,7 +1847,7 @@ button:focus {
 .imgServ .container-fluid .info-box  h2 {
   text-align: center;
   margin-bottom: 20px;
-  color: #207ea0;
+  color: #bdb986;
   font-weight: 600;
   font-size: 40px;
 }
