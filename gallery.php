@@ -43,11 +43,19 @@
 					<img src="Technomasr/img/about/02.jpg" width="320" class="img-fluid rounded m-b-30" style="height: 250px;">
 				</a>
 
+				<!-- START:: PAGINATION -->
+				<nav class="global-pagination col-12 d-flex justify-content-center" aria-label="Page navigation example">
+					<ul class="pagination">
+						<li class="page-item"><a class="page-link" href="#">Previous</a></li>
+						<li class="page-item"><a class="page-link" href="#">1</a></li>
+						<li class="page-item active"><a class="page-link" href="#">2</a></li>
+						<li class="page-item"><a class="page-link" href="#">3</a></li>
+						<li class="page-item"><a class="page-link" href="#">Next</a></li>
+					</ul>
+				</nav>
+				<!-- END:: PAGINATION -->
+
 			</div>
-
-
-
-
 
 		</div>
 	</section>
@@ -114,6 +122,18 @@
 						<iframe src="https://www.youtube.com/embed/6v2L2UGZJAM?rel=0&amp;showinfo=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 					</div>
 				</div>
+
+				<!-- START:: PAGINATION -->
+				<nav class="global-pagination col-12 d-flex justify-content-center" aria-label="Page navigation example">
+					<ul class="pagination">
+						<li class="page-item"><a class="page-link" href="#">Previous</a></li>
+						<li class="page-item"><a class="page-link" href="#">1</a></li>
+						<li class="page-item active"><a class="page-link" href="#">2</a></li>
+						<li class="page-item"><a class="page-link" href="#">3</a></li>
+						<li class="page-item"><a class="page-link" href="#">Next</a></li>
+					</ul>
+				</nav>
+				<!-- END:: PAGINATION -->
 
 			</div>
 

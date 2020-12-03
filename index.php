@@ -291,7 +291,7 @@
 							</div>
 						</div>
 						<div>
-							<a href="course.php" class="btn btn-block btn-primary text-white "> COURSE DETAIL </a>
+							<a href="course-detaills.php" class="btn btn-block btn-primary text-white "> COURSE DETAIL </a>
 						</div>
 					</div>
 
@@ -307,7 +307,7 @@
 								</div>
 							</div>
 							<div>
-								<a href="course.php" class="btn btn-block btn-primary text-white "> COURSE DETAIL </a>
+								<a href="course-detaills.php" class="btn btn-block btn-primary text-white "> COURSE DETAIL </a>
 							</div>
 						</div>
 
@@ -323,7 +323,7 @@
 								</div>
 							</div>
 							<div>
-									<a href="course.php" class="btn btn-block btn-primary text-white "> COURSE DETAIL </a>
+									<a href="course-detaills.php" class="btn btn-block btn-primary text-white "> COURSE DETAIL </a>
 							</div>
 						</div>
 
@@ -339,7 +339,7 @@
 									</div>
 							</div>
 							<div>
-								<a href="course.php" class="btn btn-block btn-primary text-white "> COURSE DETAIL </a>
+								<a href="course-detaills.php" class="btn btn-block btn-primary text-white "> COURSE DETAIL </a>
 							</div>
 						</div>
 
@@ -355,7 +355,7 @@
 								</div>
 							</div>
 							<div>
-								<a href="course.php" class="btn btn-block btn-primary text-white "> COURSE DETAIL </a>
+								<a href="course-detaills.php" class="btn btn-block btn-primary text-white "> COURSE DETAIL </a>
 							</div>
 						</div>
 
@@ -371,7 +371,7 @@
 								</div>
 							</div>
 							<div>
-								<a href="course.php" class="btn btn-block btn-primary text-white "> COURSE DETAIL </a>
+								<a href="course-detaills.php" class="btn btn-block btn-primary text-white "> COURSE DETAIL </a>
 							</div>
 						</div>
 
